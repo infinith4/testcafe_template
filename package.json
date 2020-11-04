@@ -1,0 +1,31 @@
+{
+  "name": "digital-camera-e2e-tester-testcafe",
+  "version": "1.0.0",
+  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
+  "main": "index.js",
+  "dependencies": {
+    "colorts": "^0.1.63",
+    "date-fns-timezone": "^0.1.4",
+    "node-fetch": "^2.6.1",
+    "testcafe-reporter-spec": "^2.1.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/log4js": "^2.3.5",
+    "log4js": "^6.3.0",
+    "prettier": "2.1.2",
+    "testcafe": "^1.9.4",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.3.0"
+  },
+  "scripts": {
+    "test": "ts-node testcafe/test_runner.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT"
+}

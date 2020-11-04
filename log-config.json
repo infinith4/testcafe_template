@@ -1,0 +1,33 @@
+{
+     "appenders": {
+       "app": {
+         "type": "dateFile",
+         "filename": "log/app.log",
+         "backups": 2,
+         "compress": true,
+         "pattern": "-yyyy-MM-dd"
+       },
+       "access": {
+         "type": "dateFile",
+         "filename": "log/access.log",
+         "pattern": "-yyyy-MM-dd"
+       },
+       "error": {
+         "type": "dateFile",
+         "filename": "log/error.log",
+         "pattern": "-yyyy-MM-dd"
+       },
+       "console": {
+         "type": "console"
+       }
+     },
+     "categories": {
+       "default": {
+         "appenders": [
+           "app",
+           "console"
+         ],
+         "level": "debug"
+       }
+     }
+   }

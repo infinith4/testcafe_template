@@ -1,0 +1,26 @@
+{
+  "reporter": [
+        {
+            "name": "spec",
+            "output": "reports/report.spec"
+        },
+        {
+            "name": "json",
+            "output": "reports/report.json"
+        }
+    ],
+  "screenshots": {
+    "path": "./screenshots/",
+    "pathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png",
+    "takeOnFails": true,
+    "fullPage": true
+  },
+  "skipJsErrors": true,
+  "selectorTimeout": 2000,
+  "assertionTimeout": 3000,
+  "pageLoadTimeout": 3000,
+  "speed": 0.8,
+  "debugMode": false,
+  "debugOnFail": true,
+  "tsConfigPath": "./tsconfig.json"
+}
