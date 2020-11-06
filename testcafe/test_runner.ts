@@ -67,14 +67,6 @@ const logger: Log4js.Logger = Log4js.getLogger("app");
     const testDirPath: string = "testcafe/tests_digital-camera_halfsize";
 
     const testsFileNameList: string[] = [
-      // "add_some_articles_spec.ts",
-      // "check_existing_all_articles_spec.ts",
-      //"check_put_stamp_spec.ts",
-      // "check_square_article.ts",
-      //"check_vertical_images_spec.ts",
-      "check_wom.ts",
-      // "reedit_from_cart_spec.ts",
-      //"save_data_to_restore_from_editing_list_spec.ts",
     ];
 
     let testsFilePathList: string[] = [];
